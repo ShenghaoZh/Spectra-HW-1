@@ -1,0 +1,266 @@
+.imageMain{
+	border-style: solid;
+	border-color: rgb(199,199,199);
+	border-width: 2px;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5px;
+	padding-left: 5px;
+}
+.imageBlock{
+	width: 300px;
+	margin-top: 5px;
+	display: inline-block;
+}
+#yosemite{
+	height: 250px;
+	width: 300px;
+}
+.pBlock{
+	width: 50%;
+	margin-left: 5px;
+	border-top: 5px;
+	vertical-align: top;
+	display: inline-block;
+}
+.paragraph{
+}
+
+
+
+.mainBlock{
+
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10px;
+}
+.formBlock2{
+	border-style: solid;
+	border-color: rgb(199,199,199);
+	border-width: 2px;
+	background-color: rgb(233,233,233);
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 3%;
+	float: right;
+}
+.formBlock1{
+	border-style: solid;
+	border-color: rgb(199,199,199);
+	border-width: 2px;
+	background-color: rgb(233,233,233);
+	width:70%;
+	display: inline-block;
+}
+.sideBlock{
+	padding-left: 15px;
+	display: inline-block;
+}
+.inlineBlock{
+	margin-top: 5px;
+	display: inline-block;
+}
+.smallBlock{
+	margin-top: 5px;
+}
+.checkBlock{
+	padding-left: 15px;
+	margin-top: 5px;
+}
+.submitBlock{
+	vertical-align: center;
+	margin-left: 15px;
+	margin-right: 15px;
+	margin-bottom: 5px;
+}
+.inputText{
+	width: 220px;
+}
+.inputText2{
+	width: 105px;
+}
+.button{
+	background-color: #555555;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+}
+
+.table{
+	width: 100%;
+	padding: 5px;
+}
+.tdLeft{
+	color: rgb(50,180,230);
+}
+.tdRight{
+	text-align: right;
+}
+.tbLine{
+	height: 10px;
+	border-bottom: 1px solid black;
+}
+.tbSpace{
+	height: 10px;
+}
+
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+.navBar{
+	width: 100%;
+	height: 30px;
+}
+.navUl{
+	list-style-type: none;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #555555;
+}
+.navLi{
+	float:left;
+}
+.link{
+	display: block;
+    color: white;
+    text-align: center;
+    padding:6px 20px;
+    text-decoration: none;
+}
+#active{
+	background-color: rgb(40, 130, 60);
+	display: block;
+    color: white;
+    text-align: center;
+    padding:6px 20px;
+    text-decoration: none;
+}
+.link:hover{
+	background-color: rgb(0,0,0);
+}
+
+
+
+.timeLineBlock{
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	background-color: #555555;
+}
+.leftBlock{
+	display: inline-block;
+	margin-left: 10%;
+	width: 35%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	height: 600px;
+}
+.timeLine{
+	vertical-align: top;
+	display: inline-block;
+	background-color: rgb(255,255,255);
+	margin-left: 4%;
+	width: 1%;
+	margin-top: 10px;
+	height: 600px;
+}
+.rightBlock{
+	vertical-align: top;
+	display: inline-block;
+	margin-left: 4%;
+	width: 35%;
+	margin-top: 10px;
+	height: 600px;
+}
+.leftPBlock1{
+	display:block;
+	background-color: rgb(255,255,255);
+	width: 100%;
+	height: 100px;
+	padding-left: 5px;
+}
+.rightPBlock1{
+	display:block;
+	background-color: rgb(255,255,255);
+	width: 100%;
+	height: 150px;
+	margin-top: 135px;
+	padding-left: 5px;
+}
+.leftPBlock2{
+	display:block;
+	background-color: rgb(255,255,255);
+	width: 100%;
+	height: 135px;
+	margin-top: 185px;
+	padding-left: 5px;
+}
+.rightPBlock2{
+	display:block;
+	background-color: rgb(255,255,255);
+	width: 100%;
+	height: 110px;
+	margin-top: 175px;
+	padding-left: 5px;
+}
+.pRight{
+	position: relative;
+	bottom: 25px;
+}
+.pLeft{
+	position: relative;
+	bottom: 25px;
+}
+
+#triangle-left{
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 10px solid rgb(255,255,255);
+    border-bottom: 5px solid transparent;
+    position: relative;
+    right: 15px;
+    top: 5px;
+}
+#triangle-right{
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-left: 10px solid rgb(255,255,255);
+    border-bottom: 5px solid transparent;
+    position: relative;
+    left:100%;
+    top: 5px;
+}
+.circle{
+	border: 5px solid rgb(255,77,0);
+	background-color: rgb(255,255,255);
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	position: relative;
+	right: 7px;
+}
+#circle2{
+	position: relative;
+	top: 107px;
+}
+#circle3{
+	position: relative;
+	top: 232px;
+}
+#circle4{
+	position: relative;
+	top: 382px;
+}
